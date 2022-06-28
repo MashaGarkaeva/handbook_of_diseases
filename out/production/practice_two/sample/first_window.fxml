@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="600.0" style="-fx-background-color: #ebf4fa;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Label layoutX="137.0" layoutY="31.0" text="Справочник по заболеваниям">
+         <font>
+            <Font name="Dubai Regular" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="informations" layoutX="41.0" layoutY="153.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="197.0" text="Узнать про заболевания">
+         <font>
+            <Font name="Dubai Regular" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="symptoms" layoutX="388.0" layoutY="153.0" mnemonicParsing="false" text="Указать симптомы">
+         <font>
+            <Font name="Dubai Regular" size="15.0" />
+         </font>
+      </Button>
+      <Label layoutX="89.0" layoutY="386.0" prefHeight="51.0" prefWidth="423.0" text="!ВНИМАНИЕ! Ничего самостоятельно предпринимать не рекомендуется. Требуется консультация со специалистом" textAlignment="CENTER" textOverrun="CLIP" wrapText="true" />
+   </children>
+</AnchorPane>
